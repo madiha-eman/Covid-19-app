@@ -13,17 +13,33 @@
  box-shadow: 0 8px 50px rgb(0,0,0,0.2)!important;
  transform: scale(1.05)!important;
 }
-
+.one:hover{
+  color: whitesmoke !important;
+}
 .infected {
   border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+.infected:hover{
+  background-color: rgba(137, 137, 224, 0.5);
+  color: whitesmoke!important;
+
 }
 
 .recovered {
   border-bottom: 10px solid rgba(0, 255, 0, 0.5);
 }
+.recovered:hover{
+  background-color: rgba(142, 223, 142, 0.5);
+  color: whitesmoke!important;
+
+}
 
 .deaths {
   border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+.deaths:hover{
+  background-color: rgba(238, 148, 148, 0.5);
+  color: whitesmoke!important;
 }
 
 @media only screen and (max-width: 770px) {
