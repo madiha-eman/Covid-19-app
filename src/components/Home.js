@@ -64,32 +64,73 @@ const useStyles = makeStyles((theme) => ({
   }));
 const Home = () => {
     const classes = useStyles();
+    // document.querySelector('body').addEventListener('mousemove', eyeball);
+    // function eyeball(){
+    //   var eye = document.querySelectorAll('.eye');
+    //   eye.forEach(function (eye){
+    //     let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+    //     let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2);
+    //     let radian = Math.atan2( - x, - y);
+    //     let rot = (radian *(180 / Math.PI)* -1) + 280;
+    //     eye.style.transform = 'rotate('+ rot +'deg)';
+
+    //   })
+    // }
+     
+
+
     return (
-        <div>
-        <Grid container className={classes.root}>
-                <Grid item xs={12} md={6} className={classes.columnImg}>
-          <Typography className={classes.title} variant="h2">
+//         <div>
+//         <Grid container className={classes.root}>
+//                 <Grid item xs={12} md={6} className={classes.columnImg}>
+//           <Typography className={classes.title} variant="h2">
            
-            Fight CoronaVirus
-          </Typography>
-          <Typography className={classes.subtitle} variant="h5">
-          Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-         Most people who fall sick with COVID-19 will<span className={classes.dot}>...</span>
-          </Typography>
-          <Button variant="contained" className='btn'>
-             Read More
-           </Button>
-        </Grid>
- {/* pic-sec */}
-        <Grid item xs={12} md={6} className={classes.columnImg}>
-          <Grow in timeout={3000}>
-            <picture className={classes.picture}>
-              <img className={classes.img} src={covid} alt="covid"/>
-            </picture>
-          </Grow>
-        </Grid>
-                  </Grid>
-        </div>
+//             Fight CoronaVirus
+//           </Typography>
+//           <Typography className={classes.subtitle} variant="h5">
+//           Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+//          Most people who fall sick with COVID-19 will<span className={classes.dot}>...</span>
+//           </Typography>
+//           <Button variant="contained" className='btn'>
+//              Read More
+//            </Button>
+//         </Grid>
+//  {/* pic-sec */}
+//         <Grid item xs={12} md={6} className={classes.columnImg}>
+//           <Grow in timeout={3000}>
+//             <picture className={classes.picture}>
+//               <img className={classes.img} src={covid} alt="covid"/>
+//             </picture>
+//           </Grow>
+//         </Grid>
+//                   </Grid>
+//         </div>
+             <div>
+               <div className='container'>
+                 <h2>Do not be happy to see others in trouble</h2>
+                 <div className='face'>
+                      <div className='eyes'>
+                        <span className='eye'></span>
+                        <span className='eye'></span>
+                      </div>
+                 </div>
+                 <div className='face'>
+                      <div className='eyes'>
+                        <span className='eye'></span>
+                        <span className='eye'></span>
+                      </div>
+                 </div>
+                 <div className='face'>
+                      <div className='eyes'>
+                        <span className='eye'></span>
+                        <span className='eye'></span>
+                      </div>
+                 </div>
+                 <h2> Lets's unit and fight together with Covid-19</h2>
+               </div>
+               
+             </div>
+            
     )
 }
 
