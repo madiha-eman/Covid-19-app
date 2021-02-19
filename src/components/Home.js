@@ -1,19 +1,19 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import Grow from '@material-ui/core/Grow';
-import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
-import covid from '../images/covid-children.jpg'
+// import Grid from '@material-ui/core/Grid';
+// import Typography from '@material-ui/core/Typography';
+// import Grow from '@material-ui/core/Grow';
+// import Button from '@material-ui/core/Button';
+// import { makeStyles } from '@material-ui/core/styles';
+// import covid from '../images/covid-children.jpg'
 import './home.css'
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      padding: '5rem 1rem',
-      textAlign: 'center',
-    //   minHeight: window.innerHeight,
-      position: 'relative',
-    },
+// const useStyles = makeStyles((theme) => ({
+//     root: {
+//       padding: '5rem 1rem',
+//       textAlign: 'center',
+//     //   minHeight: window.innerHeight,
+//       position: 'relative',
+//     },
     // background: {
     //   position: 'absolute',
     //   top: '0',
@@ -27,43 +27,42 @@ const useStyles = makeStyles((theme) => ({
     //   backgroundRepeat: 'no-repeat',
     //   zIndex: '-999',
     // },
-    title: {
-      textAlign: 'center',
-      paddingTop: '10px',
-      paddingBottom:'20px',
-      fontWeight: 400,
-      fontSize: '3em',
-      color: '#ff1493',
-    },
-    subtitle: {
-    paddingBottom:'20px',
-      width:350,
-      fontWeight: 400,
-      fontSize: '12px',
-      textAlign:'left',
-      marginLeft:50,
-    },
-    dot:{
-        fontSize:'22px',
-        fontWeight:'700',
-    },
+  //   title: {
+  //     textAlign: 'center',
+  //     paddingTop: '10px',
+  //     paddingBottom:'20px',
+  //     fontWeight: 400,
+  //     fontSize: '3em',
+  //     color: '#ff1493',
+  //   },
+  //   subtitle: {
+  //   paddingBottom:'20px',
+  //     width:350,
+  //     fontWeight: 400,
+  //     fontSize: '12px',
+  //     textAlign:'left',
+  //     marginLeft:50,
+  //   },
+  //   dot:{
+  //       fontSize:'22px',
+  //       fontWeight:'700',
+  //   },
 
-    picture: {
-      width: '100%',
-    },
-    img: {
-      marginTop: '10px',
-      maxHeight: '20rem',
-      maxWidth: '90%',
-    //   boxShadow: '0px 10px 10px 0px gray',
-    //   borderRadius: '50%',
-    },
+  //   picture: {
+  //     width: '100%',
+  //   },
+  //   img: {
+  //     marginTop: '10px',
+  //     maxHeight: '20rem',
+  //     maxWidth: '90%',
+   
+  //   },
     
     
   
-  }));
+  // }));
 const Home = () => {
-    const classes = useStyles();
+    // const classes = useStyles();
     // document.querySelector('body').addEventListener('mousemove', eyeball);
     // function eyeball(){
     //   var eye = document.querySelectorAll('.eye');
